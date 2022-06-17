@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades de Imagen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/99611eeda4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="text-center">Cambiar Propiedades de una Imagen con JS</h1>
+
+    <form>
+        <div class="row g-2">
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <span class="bi-person"><i class="fa-solid fa-text-width"></i></span>
+                    </span>
+                    <input type="number" class="form-control" placeholder="Width" id="width_img">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <span class="bi-person"><i class="fa-solid fa-text-height"></i></span>
+                    </span>
+                    <input type="number" class="form-control" placeholder="Height" id="height_img">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <span class="bi-person"><i class="fa-solid fa-arrow-up"></i></span>
+                    </span>
+                    <input type="number" class="form-control" placeholder="Top" id="top_img">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <span class="bi-person"><i class="fa-solid fa-arrow-left"></i></span>
+                    </span>
+                    <input type="number" class="form-control" placeholder="Left" id="left_img">
+                </div>
+            </div>
+
+        <br>
+        <center><div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary" id="aplicar">Aplicar</button>
+
+        <button type="button" class="btn btn-success" id="resetear">Resetear</button>
+        </div></center>
+      </form>
+
+      <br>
+
+      <img src="Img/Imagen.png" alt="Imagen" id="img">
+
+      <script src="js/script.js"></script>
+</body>
+</html>
